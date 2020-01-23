@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B661605923DA1D3C0084361C /* SwiftHoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */; };
+		B661605A23DA1D3C0084361C /* SwiftHoedown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B661605B23DA1E3E0084361C /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0FC1AF8F6770037168C /* Hoedown.framework */; };
+		B661605C23DA1E3E0084361C /* Hoedown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0FC1AF8F6770037168C /* Hoedown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B661605E23DA1E8A0084361C /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0FC1AF8F6770037168C /* Hoedown.framework */; };
+		B661605F23DA1E8A0084361C /* Hoedown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDA1F0FC1AF8F6770037168C /* Hoedown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FD3DFCF61BA81162008358E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DFCF51BA81162008358E1 /* AppDelegate.swift */; };
 		FD3DFCF81BA81162008358E1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DFCF71BA81162008358E1 /* WebViewController.swift */; };
 		FD3DFCFD1BA81162008358E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3DFCFC1BA81162008358E1 /* Assets.xcassets */; };
 		FD3DFD001BA81162008358E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3DFCFE1BA81162008358E1 /* LaunchScreen.storyboard */; };
-		FD3DFD051BA811B7008358E1 /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEDAFC91BA462280016BFD3 /* Hoedown.framework */; };
-		FD3DFD0B1BA81305008358E1 /* SwiftHoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEDAF0E1BA4377F0016BFD3 /* SwiftHoedown.framework */; };
 		FD3DFD0C1BA815EA008358E1 /* sample.md in Resources */ = {isa = PBXBuildFile; fileRef = FDFEB11C1BA716CF00AE7544 /* sample.md */; };
 		FD9515C31BA70FFD0064D496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9515C21BA70FFD0064D496 /* AppDelegate.swift */; };
 		FD9515C51BA70FFD0064D496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9515C41BA70FFD0064D496 /* ViewController.swift */; };
@@ -27,7 +31,6 @@
 		FDD6822C1AF7E44900C2B1DF /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
 		FDEDAFA51BA45FD80016BFD3 /* SwiftHoedown.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD682121AF7E38F00C2B1DF /* SwiftHoedown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDEDAFC81BA461920016BFD3 /* Hoedown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD6822B1AF7E44900C2B1DF /* Hoedown.swift */; };
-		FDEDAFCA1BA462280016BFD3 /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEDAFC91BA462280016BFD3 /* Hoedown.framework */; };
 		FDFEB1161BA7145900AE7544 /* SwiftHoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD6820D1AF7E38F00C2B1DF /* SwiftHoedown.framework */; };
 		FDFEB1191BA7153800AE7544 /* Hoedown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFEB1181BA7153800AE7544 /* Hoedown.framework */; };
 		FDFEB11A1BA7153800AE7544 /* Hoedown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDFEB1181BA7153800AE7544 /* Hoedown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -59,6 +62,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B661605823DA1D3B0084361C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B661605A23DA1D3C0084361C /* SwiftHoedown.framework in Embed Frameworks */,
+				B661605F23DA1E8A0084361C /* Hoedown.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B661605D23DA1E3E0084361C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B661605C23DA1E3E0084361C /* Hoedown.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDAA921C1BD8D66D0070B651 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,8 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3DFD0B1BA81305008358E1 /* SwiftHoedown.framework in Frameworks */,
-				FD3DFD051BA811B7008358E1 /* Hoedown.framework in Frameworks */,
+				B661605923DA1D3C0084361C /* SwiftHoedown.framework in Frameworks */,
+				B661605E23DA1E8A0084361C /* Hoedown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDEDAFCA1BA462280016BFD3 /* Hoedown.framework in Frameworks */,
+				B661605B23DA1E3E0084361C /* Hoedown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +298,7 @@
 				FD3DFCF01BA81162008358E1 /* Frameworks */,
 				FD3DFCF11BA81162008358E1 /* Resources */,
 				FD3DFD081BA81239008358E1 /* ShellScript */,
+				B661605823DA1D3B0084361C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -347,6 +374,7 @@
 				FDEDAF0A1BA4377F0016BFD3 /* Frameworks */,
 				FDEDAF0B1BA4377F0016BFD3 /* Headers */,
 				FDEDAF0C1BA4377F0016BFD3 /* Resources */,
+				B661605D23DA1E3E0084361C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -364,7 +392,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Invisible Pixel";
 				TargetAttributes = {
 					FD3DFCF21BA81162008358E1 = {
@@ -391,7 +419,7 @@
 			};
 			buildConfigurationList = FDD682071AF7E38F00C2B1DF /* Build configuration list for PBXProject "SwiftHoedown" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -468,7 +496,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -564,14 +593,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = SwiftHoedownDemoiOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedownDemoiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -582,14 +612,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = SwiftHoedownDemoiOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedownDemoiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -609,7 +640,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedownDemoOSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -627,7 +658,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedownDemoOSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -645,7 +676,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -661,7 +692,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -669,18 +700,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -721,18 +761,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -786,7 +835,7 @@
 				PRODUCT_NAME = SwiftHoedown;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -812,7 +861,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.invisiblepixel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SwiftHoedown;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -829,16 +878,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedowniOS;
 				PRODUCT_NAME = SwiftHoedown;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -853,16 +904,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "swift-hoedown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.invisiblepixel.SwiftHoedowniOS;
 				PRODUCT_NAME = SwiftHoedown;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

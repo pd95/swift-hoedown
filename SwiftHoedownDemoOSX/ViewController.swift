@@ -42,7 +42,7 @@ extension ViewController: WebPolicyDelegate {
         }
         
         listener.ignore()
-        NSWorkspace.shared().open(URL)
+        NSWorkspace.shared.open(URL)
     }
 }
 

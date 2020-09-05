@@ -1,5 +1,0 @@
-module CHoedown {
-    umbrella "/Users/njdehoog/Projects/Spelt/components/swift-hoedown/Sources/CHoedown/include"
-    link "CHoedown"
-    export *
-}

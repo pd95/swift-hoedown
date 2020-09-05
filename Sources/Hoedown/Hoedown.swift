@@ -62,7 +62,7 @@ public struct HoedownExtensions : OptionSet {
     public init(rawValue: UInt32) { self.rawValue = rawValue }
     init(_ value: hoedown_extensions) { self.rawValue = value.rawValue }
 
-    public static let None = HoedownExtensions(rawValue: 0)
+    public static let None = HoedownExtensions([])
 
     // Block-level extensions
     public static let Tables = HoedownExtensions(HOEDOWN_EXT_TABLES)
@@ -92,7 +92,7 @@ public struct HoedownHTMLFlags : OptionSet {
     public init(rawValue: UInt32) { self.rawValue = rawValue }
     init(_ value: hoedown_html_flags) { self.rawValue = value.rawValue }
 
-    public static let None = HoedownHTMLFlags(rawValue: 0)
+    public static let None = HoedownHTMLFlags([])
     public static let SkipHTML = HoedownHTMLFlags(HOEDOWN_HTML_SKIP_HTML)
     public static let Escape = HoedownHTMLFlags(HOEDOWN_HTML_ESCAPE)
     public static let HardWrap = HoedownHTMLFlags(HOEDOWN_HTML_HARD_WRAP)

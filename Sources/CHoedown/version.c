@@ -1,4 +1,4 @@
-#import "version.h"
+#include "version.h"
 
 void
 hoedown_version(int *major, int *minor, int *revision)

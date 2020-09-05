@@ -1,10 +1,10 @@
-#import "stack.h"
+#include "stack.h"
 
-#import "buffer.h"
+#include "buffer.h"
 
-#import <stdlib.h>
-#import <string.h>
-#import <assert.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
 
 void
 hoedown_stack_init(hoedown_stack *st, size_t initial_size)

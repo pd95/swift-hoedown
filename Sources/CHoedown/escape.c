@@ -1,8 +1,8 @@
-#import "escape.h"
+#include "escape.h"
 
-#import <assert.h>
-#import <stdio.h>
-#import <string.h>
+#include <assert.h>
+#include <stdio.h>
+#include <string.h>
 
 
 #define likely(x)       __builtin_expect((x),1)

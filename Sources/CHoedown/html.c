@@ -1,11 +1,11 @@
-#import "html.h"
+#include "html.h"
 
-#import "string.h"
-#import "stdlib.h"
-#import "stdio.h"
-#import "ctype.h"
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
 
-#import "escape.h"
+#include "escape.h"
 
 #define USE_XHTML(opt) (opt->flags & HOEDOWN_HTML_USE_XHTML)
 

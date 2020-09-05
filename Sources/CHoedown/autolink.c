@@ -1,12 +1,12 @@
-#import "autolink.h"
+#include "autolink.h"
 
-#import <string.h>
-#import <stdlib.h>
-#import <stdio.h>
-#import <ctype.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
 
 #ifndef _MSC_VER
-#import <strings.h>
+#include <strings.h>
 #else
 #define strncasecmp	_strnicmp
 #endif
